@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("http://fonts.cdnfonts.com/css/selima");
+
+.header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper {
+  position: absolute;
+}
+.video1 {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+.header__title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 5rem;
+  color: white;
+  position: relative;
+  top: 0px;
+}
+.header__title span {
+  color: white;
+  font-family: "Selima", sans-serif;
+  font-size: 6rem;
+  position: relative;
+  left: 20px;
+}
+.header__subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2rem;
+  color: white;
+  position: relative;
+}
